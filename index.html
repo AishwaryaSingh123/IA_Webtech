@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Needed so the page scales properly on phones -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal profile of Aishwarya Singh, an IT student interested in web development, social philosophy, music, acting and community service."
+    />
+    <title>Aishwarya Singh | IT Student</title>
+
+    <!-- Relative path so it works on GitHub Pages (project sites live in a sub-folder) -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Lets keyboard users jump past the navigation -->
+    <a class="skip-link" href="#about">Skip to main content</a>
+
+    <!-- Simple top navigation; each link jumps to a section id further down -->
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <a class="logo" href="#top">Aishwarya Singh</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Main intro area: kept simple so the profile photo stays the focus -->
+      <section class="hero" id="top">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <p class="eyebrow">Hi, I'm</p>
+            <h1>Aishwarya Singh</h1>
+            <p class="tagline">
+              IT student &middot; aspiring web developer &middot; actor
+            </p>
+            <p>
+              I'm an Information Technology student who likes building things
+              for the web and thinking about how technology and society shape
+              each other. This page is my personal profile and a work in
+              progress, just like me.
+            </p>
+            <a class="button" href="#contact">Get in touch</a>
+          </div>
+
+          <!-- Replace images/profile.jpg with your own photo (square-ish photos look best) -->
+          <img
+            class="profile-photo"
+            src="./images/profile.jpg"
+            alt="Portrait photo of Aishwarya Singh"
+            width="280"
+            height="280"
+          />
+        </div>
+      </section>
+
+      <!-- About Me -->
+      <section class="section" id="about">
+        <h2>About Me</h2>
+        <div class="card">
+          <p>
+            I'm studying Information Technology, and most of my time goes into
+            web development and backend projects. Outside of coding, I'm drawn
+            to philosophy, especially social philosophy, because I enjoy asking
+            why people and communities behave the way they do.
+          </p>
+          <p>
+            I also enjoy reading, writing, music and acting. For the past five
+            years, I've volunteered in my community: three years teaching moral
+            education to younger students and helping with school drives,
+            followed by two years with the National Service Scheme (NSS).
+          </p>
+          <p>
+            Through NSS, I've taken part in community drives and attended two
+            camps. These experiences have strengthened my sense of
+            responsibility, teamwork and connection to the community.
+          </p>
+        </div>
+      </section>
+
+      <!-- Education / background. Fill in the bracketed bits with your real details -->
+      <section class="section" id="education">
+        <h2>Education &amp; Background</h2>
+        <div class="grid two-col">
+          <article class="card">
+            <h3>Information Technology</h3>
+            <p class="meta">MIT &middot; 2024&ndash;2028</p>
+            <p>
+              Currently studying IT, with a focus on web technologies, databases
+              and backend development.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Learning &amp; Projects</h3>
+            <p class="meta">Ongoing</p>
+            <p>
+              Building small projects with HTML, CSS, JavaScript and FastAPI,
+              and exploring newer ideas like RAG and real-time apps with
+              WebSockets. (Add your project links here once they're ready.)
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills: grouped so it's easier to scan than one long list -->
+      <section class="section" id="skills">
+        <h2>Technical Skills</h2>
+        <div class="grid three-col">
+          <article class="card">
+            <h3>Languages</h3>
+            <ul class="tags">
+              <li>Python</li>
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Frameworks</h3>
+            <ul class="tags">
+              <li>React</li>
+              <li>FastAPI</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Data &amp; AI</h3>
+            <ul class="tags">
+              <li>PostgreSQL</li>
+              <li>Google Gemini API</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Interests and hobbies -->
+      <section class="section" id="interests">
+        <h2>Interests &amp; Hobbies</h2>
+        <div class="grid two-col">
+          <article class="card">
+            <h3>Philosophy</h3>
+            <p>
+              I'm especially interested in social philosophy: how societies are
+              structured and how the ideas we live by affect everyday life.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Music</h3>
+            <p>
+              I play the guitar and the keyboard, mostly to unwind after
+              studying.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Reading &amp; Writing</h3>
+            <p>
+              I enjoy both reading and writing. Right now I'm reading
+              <em>Thinking, Fast and Slow</em>.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Podcasts</h3>
+            <p>
+              I listen to the <strong>80,000 Hours</strong> podcast, which has a
+              lot of interesting conversations about careers and big-picture
+              problems.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact: placeholders below, swap in real links before submitting -->
+      <section class="section" id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+          <p>
+            Feel free to reach out about projects, acting, volunteering, books
+            or anything else.
+          </p>
+          <ul class="contact-list">
+            <li>
+              <a
+                href="mailto:aishwarya1.mitmpl2024@learner.manipal.edu"
+                aria-label="Email"
+                title="Email"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M3 5h18v14H3z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                  <path
+                    d="m3 6 9 7 9-7"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/AishwaryaSingh123"
+                target="_blank"
+                rel="noopener"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.53v-2.08c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.24-1.65-1.24-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.67 2.15 3.2 1.54.1-.72.39-1.21.7-1.49-2.47-.28-5.07-1.24-5.07-5.51 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.06 1.15a10.6 10.6 0 0 1 5.57 0c2.12-1.45 3.06-1.15 3.06-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.28-2.61 5.23-5.1 5.5.4.35.75 1.03.75 2.08V22c0 .29.2.64.77.53A11.1 11.1 0 0 0 12 .9Z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="tel:+919876543210" aria-label="Phone" title="Phone">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path
+                    d="M6.6 2.8 9.4 2l2.1 5-2.1 1.6a15 15 0 0 0 6 6l1.6-2.1 5 2.1-.8 2.8a3 3 0 0 1-3.2 2.1A18 18 0 0 1 4.5 6a3 3 0 0 1 2.1-3.2Z"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Aishwarya Singh. Built with plain HTML and CSS.</p>
+    </footer>
+  </body>
+</html>
